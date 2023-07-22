@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <nav class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        <img src="./img/google-logo-9834.png" alt="logo" width="100px">
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <ul class="nav-list">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Service">Services</a></li>
+    </ul>
+  </nav>
+
+    <!--Home-->
+    <section class="home" id="Home">
+        <img src="./img/IMG_0605.jpg"  alt="My photo">
+        <div class="hometext">
+            <p>
+                Hi Community,<br>
+                This is Kishore from Chennai Institute of Technology.<br>
+                Currently Pursuing my Engineering in Computer Science.
+            </p>
+        </div>
+    </section>
+    <section class="about" id="About">
+            <div class="abouttext">
+                <h3>I am a <span class="dynamic"></span></h3>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <div class=" abouttxt">
+                <h3>About Me</h3>
+                <br></br>
+                <p>
+                    I am a talented, ambitious and hardworking individual, with broad skills.
+                </p> 
+                <br></br>
+                <p>
+                    Furthermore, I adapt myself at handling multiple tasks on a daily basis  and at working well under pressure.
+                    My key strength is communication and building strong relationships with people in order to deliver the best results.
+                </p>
+            </div>
+    </section>
+    <section  class="myskills"id="Skills">
+        <h4>SKILLS</h4>
+        <div class="left">
+            <div class="card">
+                <img src="./img/C_Logo.png" alt="c"></img>
+            </div>
+            <div class="card">
+                <img src="./img/C++-01.png" alt="c++"></img>
+            </div>
+            <div class="card">
+                <img src="./img/Python-04.png" alt="py"/>
+            </div>
+            <div class="card">
+                <img src="./img/Java-01.png" alt="java"/>
+            </div>
+            <div class="card">
+                <img src="./img/HTML-5-logo-vector-01.jpg" alt="html"/>
+            </div>
+            <div class="card">
+                <img src="./img/CSS-3-01.jpg" alt="css"/>
+            </div>
+            <div class="card">
+                <img src="./img/JavaScript-01.png" alt="js"/>
+            </div>
+            <div class="card">
+                 <img src="./img/React-01.png" alt="react"/>
+            </div>
+            <div class="card">
+                <img src="./img/Redux-01.png" alt="redux"/>
+            </div>
+            <div class="card">
+                <img src="./img/Node-JS-01.png" alt="node">
+            </div>
+            <div class="card">
+                <img src="./img/MySQL-01.png" alt="sql"/>
+            </div>
+            <div class="card">
+                <img src="./img/mongo db.png" alt="mongodb"/>
+            </div>
+            <div class="card">
+                <img src="./img/Github-22.png" alt="github">
+            </div>
+        </div>
+    </section>
+    <section class="service" id="Service">
+        <h6>SERVICES</h6>
+        <div class="wb">
+            <h4>FullStack<br></br>
+            Development</h4>
+        </div>
+        <div class="wb">
+            <h4>ui-ux<br></br>
+            Development</h4>
+        </div>
+        <div class="wb">
+            <h4>Logo Designs</h4>
+        </div>
+    </section>
+</body>
+<script>
+    var typed = new Typed(".dynamic",{
+        strings:["Web Developer","C Programmer","Designer","ui-ux Developer"],
+        typeSpeed:80,
+        backSpeed:80,
+        loop:true
+    })
+</script>
+</html>
